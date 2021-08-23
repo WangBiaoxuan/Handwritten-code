@@ -3,7 +3,7 @@ function clone (parent, child = {}) {
 //    return Object.assign(child, parent)
 //    return { ...child, ...parent }
     for (let i in parent) {
-        if (parent.hasOwnPorperty('i')) {
+        if (parent.hasOwnProperty('i')) {
             child[i] = parent[i]
         }
     }
